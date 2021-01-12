@@ -9,7 +9,7 @@ def get_compass_raw_Dummy():
         values = elem.split(',')
         x = values[0]
         y = values[1]
-        x = values[2]
+        z = values[2]
         yield {'x' : x, 'y' : y, 'z' : z}
         
         
